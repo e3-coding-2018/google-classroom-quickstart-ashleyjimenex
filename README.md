@@ -4,6 +4,9 @@ This project is derived from the official Java Quickstart [Java Quickstart](http
 
 ## Step 1: Turn on the Classroom API
 1. Create a directory src/main/resources
+    1. Click on the project name (google-classroom-quickstart-...)
+    1. From either the File menu or the context menu chose New -> Directory
+    1. Type src/main/resources and hit OK
 2. Click the **ENABLE THE CLASSROOM API** button on Step 1 of [Java Quickstart](https://developers.google.com/classroom/quickstart/java) to create a new Cloud Platform project and automatically enable the Classroom API.
 3. In resulting dialog click **DOWNLOAD CLIENT CONFIGURATION** and save the file credentials.json to the [directory](src/main/resources) you created. 
 
@@ -14,7 +17,18 @@ You can skip this step. I created the project for you in this template.
 ## Step 3: Set up the sample
 
 1. Create a directory src/main/java
-2. Create a new Java class ClassroomQuickstart.java in that directory.
+    1. Click on the project name (google-classroom-quickstart-...)
+    1. From either the File menu or the context menu chose New -> Directory
+    1. Type ```src/main/java``` and hit OK
+    
+    Note: You can also create the java directory directly under the ```src/main``` directory.
+2. Create a new package ```com.e3civichigh.coding.googleclassroom```
+    1. Click on src and using the File menu or the context menu pick New->Package
+    2. Type ```com.e3civichigh.coding.googleclassroom```
+2. Create a new Java class ```ClassroomQuickstart.java``` in that package and delete all the code in the file.
+    1. Select the package ```com.e3civichigh.coding.googleclassroom```
+    2. Using the context or File menu select New -> Class
+    3. Type ```ClassroomQuickstart```
 3. Copy the code from the website (note the copy button in the upper right corner of the code) and replace **ALL** of the code with the sample code.
 
 ## Step 4: Run the sample
